@@ -1,3 +1,4 @@
+replicaCount: 1
 # Environment settings
 environment: integration-gpu
 
