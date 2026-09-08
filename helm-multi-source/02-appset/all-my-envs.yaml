@@ -59,6 +59,8 @@ spec:
             - $values/helm-multi-source/my-values/env-type/{{.type}}-values.yaml  
             - $values/helm-multi-source/my-values/regions/{{.region}}-values.yaml                
             - $values/helm-multi-source/my-values/envs/{{.env}}-values.yaml
+            - $values/helm-multi-source/my-values/envs/integration-gpu-values.yaml
+            - $values/helm-multi-source/my-values/envs/integration-non-gpu-values.yaml
         - repoURL: 'https://github.com/larrietacohen/gitops-cert-level-3-examples.git'
           targetRevision: HEAD
           ref: values
