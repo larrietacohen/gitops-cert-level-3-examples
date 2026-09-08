@@ -33,11 +33,11 @@ spec:
         region: us 
         type: prod
         version: prod
-      - env: integration-gpu-values
+      - env: integration-gpu
         region: us
         type: non-prod
         version: qa
-      - env: integration-non-gpu-values
+      - env: integration-non-gpu
         region: us
         type: non-prod
         version: qa
